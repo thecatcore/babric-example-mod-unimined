@@ -1,4 +1,4 @@
-# Fabric Example Mod
+# Babric Example Mod
 
 ## Setup
 

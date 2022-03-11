@@ -6,5 +6,15 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        maven {
+            name = 'Jitpack'
+            url = 'https://jitpack.io/'
+        }
+    }
+
+    resolutionStrategy.eachPlugin {
+        if (requested.id.name == "fabric-loom") {
+            useModule("com.github.babric:fabric-loom:${requested.version}")
+        }
     }
 }
