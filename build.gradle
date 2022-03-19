@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version 'dev~0.12-SNAPSHOT'
+    id 'babric-loom' version '0.12-SNAPSHOT'
     id 'maven-publish'
 }
 
@@ -15,7 +15,10 @@ loom {
 }
 
 repositories {
-    mavenLocal()
+    maven {
+        name = 'Babric'
+        url = 'https://maven.glass-launcher.net/babric'
+    }
 }
 
 dependencies {

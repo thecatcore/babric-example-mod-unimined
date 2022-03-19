@@ -4,17 +4,11 @@ pluginManagement {
             name = 'Fabric'
             url = 'https://maven.fabricmc.net/'
         }
+        maven {
+            name = 'Babric'
+            url = 'https://maven.glass-launcher.net/babric'
+        }
         mavenCentral()
         gradlePluginPortal()
-        maven {
-            name = 'Jitpack'
-            url = 'https://jitpack.io/'
-        }
-    }
-
-    resolutionStrategy.eachPlugin {
-        if (requested.id.name == "fabric-loom") {
-            useModule("com.github.babric:fabric-loom:${requested.version}")
-        }
     }
 }
