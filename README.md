@@ -1,8 +1,8 @@
-# Babric Example Mod
+# Babric Example Mod with Unimined
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Import gradle project.
 
 ## License
 
