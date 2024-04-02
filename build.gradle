@@ -1,6 +1,6 @@
 plugins {
     id 'fabric-loom' version '1.6-SNAPSHOT'
-    id 'babric.babric-loom-extension' version '1.6-SNAPSHOT'
+    id 'babric-loom-extension.babric-loom-extension' version '1.6-SNAPSHOT'
     id 'maven-publish'
 }
 
